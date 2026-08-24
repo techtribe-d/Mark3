@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shere Punjab Restaurant | Nagpur</title>
+<meta name="description" content="Shere Punjab Restaurant and Sweet Shop at Kamal Chowk, Nagpur. Fresh snacks and traditional Indian sweets.">
+<style>
+:root{--maroon:#6e1820;--deep:#260d0d;--gold:#d9a441;--cream:#fff8eb;--ink:#2a1a16;--muted:#715e56}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Georgia,"Times New Roman",serif;color:var(--ink);background:var(--cream)}
+a{text-decoration:none;color:inherit}
+.nav{position:sticky;top:0;z-index:10;background:#260d0df7;color:#fff;display:flex;align-items:center;justify-content:space-between;padding:16px 6%;box-shadow:0 3px 15px #0003}
+.brand{font-size:1.35rem;font-weight:700}.brand span{color:var(--gold)}
+.navlinks{display:flex;gap:22px;font-family:Arial,sans-serif;font-size:.92rem}.navlinks a:hover{color:var(--gold)}
+.hero{min-height:82vh;display:grid;place-items:center;text-align:center;color:#fff;padding:80px 20px;background:linear-gradient(#1d0909aa,#1d0909cc),radial-gradient(circle at 50% 35%,#a64b2a,#3a1011 55%,#160707)}
+.hero-inner{max-width:850px}.eyebrow{color:var(--gold);font-family:Arial,sans-serif;text-transform:uppercase;letter-spacing:4px;font-size:.8rem}
+h1{font-size:clamp(3rem,8vw,6.5rem);line-height:.95;margin:18px 0 20px}.hero p{font-size:1.25rem;line-height:1.6;margin:0 auto 30px;max-width:650px;color:#f9ead6}
+.buttons{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}.btn{padding:14px 24px;border-radius:999px;font-family:Arial,sans-serif;font-weight:700;display:inline-block}.btn.primary{background:var(--gold);color:#28110d}.btn.secondary{border:1px solid #fff8;color:#fff}
+section{padding:75px 6%}.section-head{text-align:center;max-width:700px;margin:0 auto 42px}.section-head .eyebrow{color:var(--maroon)}
+h2{font-size:2.7rem;margin:10px 0;color:var(--deep)}.section-head p{color:var(--muted);font-family:Arial,sans-serif;line-height:1.7}
+.food-grid{max-width:1100px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:25px}.food-card{background:#fff;border-radius:22px;overflow:hidden;border:1px solid #ead7bb;box-shadow:0 10px 30px #4d251414}
+.food-card img{width:100%;height:240px;object-fit:cover;display:block}.food-info{padding:22px}.food-info h3{color:var(--maroon);font-size:1.5rem;margin:0 0 8px}.food-info p{font-family:Arial,sans-serif;color:var(--muted)}.price{color:var(--maroon);font-weight:700}
+.menu-grid{max-width:1000px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:28px}.menu-card{background:#fff;border-radius:22px;padding:30px;box-shadow:0 10px 30px #4d251414;border:1px solid #ead7bb}.menu-card h3{margin:0 0 20px;color:var(--maroon);font-size:1.7rem}
+.item{display:flex;justify-content:space-between;gap:20px;padding:17px 0;border-bottom:1px dashed #d9c3a7}.item:last-child{border-bottom:0}.item .price{text-align:right;white-space:nowrap}
+.video-section{background:#2a0e0f;color:white;text-align:center}.video-section h2{color:white}.video-section .section-head .eyebrow{color:var(--gold)}.video-section .section-head p{color:#ead9cc}
+.video-box{max-width:900px;margin:auto}.video-box iframe{width:100%;height:500px;border:0;border-radius:20px;box-shadow:0 10px 35px #0008}
+.about{background:#2a0e0f;color:#fff;display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}.about h2{color:#fff}.about p{font-family:Arial,sans-serif;line-height:1.9;color:#ead9cc}
+.seal{border:1px solid #d9a44188;border-radius:50%;width:min(360px,75vw);aspect-ratio:1;margin:auto;display:grid;place-items:center;text-align:center;padding:35px;color:var(--gold);font-size:1.4rem}
+.contact{background:#fff}.contact-grid{max-width:1050px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:25px}.contact-card{background:var(--cream);padding:28px;border-radius:20px;border:1px solid #ead7bb}.contact-card h3{color:var(--maroon);margin-top:0}.contact-card p{font-family:Arial,sans-serif;line-height:1.7;color:var(--muted)}
+.map{width:100%;height:360px;border:0;border-radius:20px;box-shadow:0 10px 30px #4d251414}
+footer{background:#170707;color:#d9c9bc;text-align:center;padding:28px 6%;font-family:Arial,sans-serif;font-size:.9rem}.gold{color:var(--gold)}
+@media(max-width:900px){.food-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:760px){.navlinks{display:none}.food-grid,.menu-grid,.about,.contact-grid{grid-template-columns:1fr}section{padding:58px 5%}.hero{min-height:78vh}.video-box iframe{height:300px}}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+<a class="brand" href="#">Shere <span>Punjab</span></a>
+<div class="navlinks">
+<a href="#food">Food</a><a href="#menu">Menu</a><a href="#video">Video</a><a href="#about">About</a><a href="#contact">Contact</a>
+</div>
+</nav>
+
+<header class="hero">
+<div class="hero-inner">
+<div class="eyebrow">Kamal Chowk · Nagpur</div>
+<h1>Shere Punjab</h1>
+<p>Traditional Indian snacks and sweets, prepared with the warmth and flavour of Punjab.</p>
+<div class="buttons">
+<a class="btn primary" href="#food">Explore Food</a>
+<a class="btn secondary" href="tel:123456789">Call 123456789</a>
+</div>
+</div>
+</header>
+
+<section id="food">
+<div class="section-head">
+<div class="eyebrow">Our Specialities</div>
+<h2>Fresh &amp; Delicious</h2>
+<p>Enjoy some of our popular snacks and sweets.</p>
+</div>
+<div class="food-grid">
+
+<div class="food-card">
+<img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Samosa">
+<div class="food-info"><h3>🥟 Samosa</h3><p>Crispy golden samosa with delicious filling.</p><div class="price">₹40 Full · ₹25 Half</div></div>
+</div>
+
+<div class="food-card">
+<img src="https://images.unsplash.com/photo-1626132647523-66f5bf380027?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Kachori">
+<div class="food-info"><h3>🥮 Kachori</h3><p>Crispy and tasty traditional Indian kachori.</p><div class="price">₹40 Full · ₹25 Half</div></div>
+</div>
+
+<div class="food-card">
+<img src="https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Indian sweets">
+<div class="food-info"><h3>🍬 Kaju Katli</h3><p>Premium traditional cashew sweet.</p><div class="price">₹1,000 / kg</div></div>
+</div>
+
+</div>
+</section>
+
+<section id="menu">
+<div class="section-head"><div class="eyebrow">Our Menu</div><h2>Fresh. Simple. Delicious.</h2></div>
+<div class="menu-grid">
+
+<div class="menu-card">
+<h3>🥟 Snacks</h3>
+<div class="item"><strong>Samosa</strong><span class="price">₹40 Full<br>₹25 Half</span></div>
+<div class="item"><strong>Kachori</strong><span class="price">₹40 Full<br>₹25 Half</span></div>
+<div class="item"><strong>Aloo Bondha</strong><span class="price">₹40 Full<br>₹25 Half</span></div>
+</div>
+
+<div class="menu-card">
+<h3>🍬 Traditional Sweets</h3>
+<div class="item"><strong>Kaju Katli</strong><span class="price">₹1,000 / kg</span></div>
+<div class="item"><strong>Santra Barfi</strong><span class="price">₹700 / kg</span></div>
+</div>
+
+</div>
+</section>
+
+<section id="video" class="video-section">
+<div class="section-head">
+<div class="eyebrow">Watch Our Sweet</div>
+<h2>Kaju Katli</h2>
+<p>Watch a Kaju Katli preparation video.</p>
+</div>
+<div class="video-box">
+<iframe src="kajukatli.mp4" title="Kaju Katli preparation video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</section>
+
+<section id="about" class="about">
+<div>
+<div class="eyebrow">Welcome to Shere Punjab</div>
+<h2>A taste worth coming back for.</h2>
+<p>Located at Kamal Chowk in Nagpur, Shere Punjab brings together much-loved Indian snacks and traditional sweets in one welcoming place.</p>
+<p><strong>Open every day:</strong> 8:00 AM – 10:00 PM</p>
+</div>
+<div class="seal"><div><strong>SHERE<br>PUNJAB</strong><br><small>Traditional Taste · Nagpur</small></div></div>
+</section>
+
+<section id="contact" class="contact">
+<div class="section-head">
+<div class="eyebrow">Visit Us</div>
+<h2>Come Say Hello</h2>
+<p>Find us at Kamal Chowk, Balabhaupeth, Nagpur.</p>
+</div>
+<div class="contact-grid">
+
+<div class="contact-card">
+<h3>📍 Address</h3>
+<p>54C2+589, Shere Punjab Sweet Shop,<br>Dr BR Ambedkar Marg, Kamal Chowk,<br>Balabhaupeth, Nagpur,<br>Maharashtra 440017</p>
+<h3>📞 Phone</h3>
+<p><a href="tel:123456789">123456789</a></p>
+<h3>🕐 Opening Hours</h3>
+<p>Every day · 8:00 AM – 10:00 PM</p>
+<a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=54C2%2B589%20Shere%20Punjab%20Sweet%20Shop%2C%20Dr%20BR%20Ambedkar%20Marg%2C%20Kamal%20Chowk%2C%20Balabhaupeth%2C%20Nagpur%20440017">Open in Google Maps</a>
+</div>
+
+<iframe class="map" title="Shere Punjab location on Google Maps" src="https://www.google.com/maps?q=54C2%2B589%20Shere%20Punjab%20Sweet%20Shop%2C%20Dr%20BR%20Ambedkar%20Marg%2C%20Kamal%20Chowk%2C%20Balabhaupeth%2C%20Nagpur%20440017&amp;output=embed" loading="lazy" allowfullscreen></iframe>
+
+</div>
+</section>
+
+<footer>© 2026 <span class="gold">Shere Punjab Restaurant</span> · Nagpur</footer>
+
+</body>
+</html>
